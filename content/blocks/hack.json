@@ -1,0 +1,36 @@
+{
+	"type": "GenericSmelter",
+	"name": "ore generator",
+	"description": "gives all basic resources.",
+	"outputItem": {
+			"items": [
+                                { "item": "lead", "amount": 1 }'
+                                { "item": "coal", "amount": 1 }'
+                                { "item": "sand", "amount": 1 }'
+                                { "item": "plastium", "amount": 1 }'
+                                { "item": "surge-alloy", "amount": 1 }
+                                { "item": "titanium", "amount": 1 }
+			]
+		},
+	},
+	"size": 2,
+	"hasPower": true,
+	"hasItems": true,
+	"craftTime": 20,
+	"updateEffect": "smeltsmoke",
+	"consumes": {
+		"power": 0.0166666666667,
+		"items": {
+			"items": [
+				{ "item": "copper", "amount": 1 }
+			]
+		},
+	},
+	"requirements": [
+		{ "item": "copper", "amount": 1 }
+	],      
+	"category": "crafting",
+	"idleSound": "respawning",
+        "research": "container",
+	"idleSoundVolume": 0.5
+}
